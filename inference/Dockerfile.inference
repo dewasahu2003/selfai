@@ -1,0 +1,15 @@
+FROM public.ecr.aws/lambda/python:3.11
+
+
+COPY ./pyproject.toml ./poetry.lock ./
+RUN python -m pip install --upgrade pip &&  pip install poetry && poetry lock --no-update 
+
+RUN poetry export -f requirements.txt --output requirements.txt && \
+    pip install --no-cache-dir -r requirements.txt --target "${LAMBDA_TASK_ROOT}" && \
+    rm requirements.txt pyproject.toml poetry.lock
+
+ENV PYTHONPATH=${LAMBDA_TASK_ROOT}/inference
+
+COPY ./ ${LAMBDA_TASK_ROOT}/inference
+
+CMD ["inference.main.lambda_handler"]

@@ -1,0 +1,323 @@
+[33mcommit e85ed91b7758e492da7bcb9ee750fab5a5f578f3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Fri Oct 25 01:01:29 2024 +0530
+
+    fixing
+
+[33mcommit c3b39aceab13fb2a6cdc39eec0998d075d83357a[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Thu Oct 24 22:53:48 2024 +0530
+
+    error:sg id fix
+
+[33mcommit 6de2a05abb6a2a3943c9152d8660b3b3ece0bf50[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Thu Oct 24 22:32:06 2024 +0530
+
+    sg
+
+[33mcommit 0e039aa0a47a36b6a777c83d3a8297780d989743[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Thu Oct 24 16:35:13 2024 +0530
+
+    pulumi services
+
+[33mcommit ba3d016be0f6a683eef72d54e32d19ea84cb243a[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Thu Oct 24 16:20:23 2024 +0530
+
+    action
+
+[33mcommit 93983ff0c5c4945c15e163d8e76abe90dcded026[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Thu Oct 24 16:01:15 2024 +0530
+
+    action
+
+[33mcommit 63e67d01cd1e2c3cc2570fd9b1aa64db8baea05a[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Thu Oct 24 15:52:16 2024 +0530
+
+    actions:crawler
+
+[33mcommit ccea79c0fdf835485d6b09891e196d14173ed508[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Thu Oct 24 15:20:43 2024 +0530
+
+    actions
+
+[33mcommit 13aa0bc192f6d5c2722a35e51d02b53f71e14ec8[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Thu Oct 24 11:15:07 2024 +0530
+
+    actions
+
+[33mcommit e61f2d09d6a197c49dff20423280e91ff7f3f860[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Thu Oct 24 11:08:13 2024 +0530
+
+    actions:crawler
+
+[33mcommit b20c736167503bff2160ae82f61b63aba7f22114[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Thu Oct 24 10:58:12 2024 +0530
+
+    actions:added for all container
+
+[33mcommit 7e9415217387ce4958b4e27d7e371f262c78f5be[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Oct 20 19:18:20 2024 +0530
+
+    deploying workflows
+
+[33mcommit 9492bfc6d82fe73d2241bb9e25ffd4be8a8d75d9[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Oct 20 19:12:58 2024 +0530
+
+    deploying workflows
+
+[33mcommit 2d0c215231d31ae0d6e19fcfa07dc509281e98d5[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Oct 20 19:06:21 2024 +0530
+
+    deploying workflows
+
+[33mcommit a69b8b222689d99738aae4eed180d83c856ba76f[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Oct 20 19:04:41 2024 +0530
+
+    deploying workflows
+
+[33mcommit 0038b87670bcba6b93a68ec807b0e8f31a20aeb4[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Oct 20 19:03:33 2024 +0530
+
+    deploying workflows
+
+[33mcommit 8c4e4afb788887cce1d5b925ae497103caa0ff89[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Oct 20 18:59:01 2024 +0530
+
+    deploying workflows
+
+[33mcommit 9c42d606adf8bd5a028ad44ac7445374db1f087e[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Oct 20 18:49:57 2024 +0530
+
+    deploying workflows
+
+[33mcommit a7b943f43bde9a5ac4c39f763633fca1eb26b548[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Oct 20 17:15:51 2024 +0530
+
+    added for feature gen
+
+[33mcommit 10e56f0c338f7386a7cb41a08d76982fa9fcd3e4[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Oct 20 17:13:03 2024 +0530
+
+    added for feature gen
+
+[33mcommit 563fdbb84a3d7554fc94e89f4ba5f7d80bd5d5c1[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Oct 20 17:08:30 2024 +0530
+
+    added for feature gen
+
+[33mcommit 6e87009aa1264c7a06106c44463796af484d12d8[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Oct 20 17:02:30 2024 +0530
+
+    added for building containers
+
+[33mcommit f2ce64e168fe428995a431965146a1146df9fa37[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Oct 20 16:57:51 2024 +0530
+
+    added for building containers
+
+[33mcommit 7ab55d804c5bf7710d65cdfa47911cfb3752547c[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Oct 20 16:56:13 2024 +0530
+
+    added for building containers
+
+[33mcommit 9c049716275ec14d726d784f2bdcf5639de9568d[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sat Oct 19 00:36:26 2024 +0530
+
+    loggging features
+
+[33mcommit 69d94908cf112953ebd53d894a1afe368e94c97a[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Wed Oct 9 02:53:56 2024 +0530
+
+    working
+
+[33mcommit d1d67430ff955139de35e5362f92bbe1ad1cfa88[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Oct 6 22:39:28 2024 +0530
+
+    complete:building
+
+[33mcommit 4cb3d0f76e03472004ec7d08a8633e647dd45f8b[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Oct 6 01:27:26 2024 +0530
+
+    features:sg,apigatway
+
+[33mcommit 231b7e5aca258e46f82744b5dcc957c814c299d6[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Thu Oct 3 02:09:10 2024 +0530
+
+    infra: needs to work on ports
+
+[33mcommit 298eb7e705d581887db68aef83338fc7473dc6f8[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Thu Sep 26 03:24:44 2024 +0530
+
+    pipeline-infernce&monitor
+
+[33mcommit a7d9a2b8b0511b79ae6020e0ac3abe502c84c7bc[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Wed Sep 25 02:34:41 2024 +0530
+
+    pipeline: feature,finetuning
+
+[33mcommit 1a2dde5e02bd2e64ab1f68bcf1179eb9905620a2[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 22 03:02:02 2024 +0530
+
+    pipelines:feature+cdc
+
+[33mcommit b3b936cf4602d9be9a90c028a1be3ac82f9900a6[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Wed Sep 18 23:00:27 2024 +0530
+
+    error:fix - lambda deploy-2
+
+[33mcommit 5bc73f53e85774583557f840316e548ad21e1476[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Wed Sep 18 22:50:54 2024 +0530
+
+    error:fix - lambda deploy
+
+[33mcommit eb87044f354bb98b28830f5abaf5e98410792d45[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Wed Sep 18 22:23:48 2024 +0530
+
+    changes to strcture
+
+[33mcommit 55e2552230f66a52572769c521abba56fb55ed29[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 19:30:34 2024 +0530
+
+    docker fixing
+
+[33mcommit 3432b2116f26275d4291ff61262fc8c6889e57a4[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 19:26:31 2024 +0530
+
+    docker fixing
+
+[33mcommit 3589a0fc56eb0222924195801c57f51e042ff615[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 19:22:09 2024 +0530
+
+    errors handled in action
+
+[33mcommit cf9aff19c8a94f02f679dc8f675f5bf01d984dc9[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 18:14:58 2024 +0530
+
+    fixes
+
+[33mcommit 1dfe496bf1de073267ba8465dc2f1811d06a9cda[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 18:12:48 2024 +0530
+
+    fixes
+
+[33mcommit 54b0095f0ebbfc1755f07456da32fba9f4b4a0ec[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 18:11:37 2024 +0530
+
+    fixes
+
+[33mcommit 77f109c19e6b0a10e80f9d74b59843a8abd53840[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 18:06:24 2024 +0530
+
+    fixes
+
+[33mcommit c6b9edc05ea73ea2f16d8394dc4dd4354552c68a[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 18:04:24 2024 +0530
+
+    fixes
+
+[33mcommit 6f4951a763e8b972a48a1693cdb413e4e2db6eb8[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 18:03:11 2024 +0530
+
+    fixes
+
+[33mcommit 5c0b869f331e8cb99c4a27a11ae3edc1e67053a3[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 18:01:07 2024 +0530
+
+    fixes
+
+[33mcommit d2007569e6720190ca2c43e5ce43b8fb4bf95a6a[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 17:59:37 2024 +0530
+
+    fixes
+
+[33mcommit 09369818efd1f500195c66069dd33983af727e00[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 17:58:04 2024 +0530
+
+    fixes
+
+[33mcommit ba8a9a186f67972b01d07f13e3f2fddba843e535[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 17:49:53 2024 +0530
+
+    fixes
+
+[33mcommit f002c0ffa52e47cb051dbe82163264fc24186bf9[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 17:36:27 2024 +0530
+
+    fixes
+
+[33mcommit 5f16914b89f6aa3537bf1548c871b0791387c9ff[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 17:24:18 2024 +0530
+
+    fixes in actions
+
+[33mcommit 885275ddbac18af4f07988100a5203fce4a379a2[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 17:21:10 2024 +0530
+
+    change docker file location
+
+[33mcommit 331637a8f2237b4409ea2e1f4637ac534de34970[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 17:15:12 2024 +0530
+
+    change docker file location
+
+[33mcommit bdfa90c119788c2cd480777434ed4229f17abd3b[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 17:12:43 2024 +0530
+
+    change docker file location
+
+[33mcommit b2088eeebb04c27035e5130f0af6c3c1f98edb66[m
+Author: dewasahu2003 <dewasahu2003@gmail.com>
+Date:   Sun Sep 15 17:02:09 2024 +0530
+
+    init

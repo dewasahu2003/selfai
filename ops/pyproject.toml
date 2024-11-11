@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ops"
+version = "0.1.0"
+description = "helping for deploying"
+authors = ["dewasahu2003 <dewasahu2003@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pulumi = ">=3.0.0,<4.0.0"
+pulumi-aws = ">=6.0.2,<7.0.0"
+structlog = "^24.3.0"
+pydantic = "^2.6.3"
+pydantic-settings = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

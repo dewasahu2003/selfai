@@ -1,0 +1,15 @@
+name: selfai
+
+runtime:
+  name: python
+  options:
+    toolchain: poetry
+
+description: infra for selfai
+
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
+
+  region: ap-south-1

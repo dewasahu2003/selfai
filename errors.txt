@@ -1,0 +1,87 @@
+Diagnostics:
+  aws:ec2:Eip (selfai-ip):
+    warning: urn:pulumi:dev::selfai::aws:ec2/eip:Eip::selfai-ip verification warning: use domain attribute instead 
+
+  aws:lambda:Function (crawlerFunction):
+    error:   sdk-v2/provider2.go:520: sdk.helper_schema: creating Lambda Function (crawlerFunction-e9e8d23): operation error Lambda: CreateFunction, https response error StatusCode: 400, RequestID: 6ad7d44b-ff8a-4464-b157-72f537dfee1b, InvalidParameterValueException: The provided execution role does not have permissions to call CreateNetworkInterface on EC2: provider=aws@6.57.0
+    error: 1 error occurred:
+        * creating Lambda Function (crawlerFunction-e9e8d23): operation error Lambda: CreateFunction, https response error StatusCode: 400, RequestID: 6ad7d44b-ff8a-4464-b157-72f537dfee1b, InvalidParameterValueException: The provided execution role does not have permissions to call CreateNetworkInterface on EC2
+
+  aws:lambda:Function (datagenFunction):
+    error:   sdk-v2/provider2.go:520: sdk.helper_schema: creating Lambda Function (datagenFunction-0999254): operation error Lambda: CreateFunction, https response error StatusCode: 400, RequestID: aab7e80f-cbbb-4640-b778-acb825f898d9, InvalidParameterValueException: The provided execution role does not have permissions to call CreateNetworkInterface on EC2: provider=aws@6.57.0
+    error: 1 error occurred:
+        * creating Lambda Function (datagenFunction-0999254): operation error Lambda: CreateFunction, https response error StatusCode: 400, RequestID: aab7e80f-cbbb-4640-b778-acb825f898d9, InvalidParameterValueException: The provided execution role does not have permissions to call CreateNetworkInterface on EC2
+
+  aws:lambda:Function (inferenceFunction):
+    error:   sdk-v2/provider2.go:520: sdk.helper_schema: creating Lambda Function (inferenceFunction-6e04511): operation error Lambda: CreateFunction, https response error StatusCode: 400, RequestID: 83fbfa76-bab2-4260-821c-21035b96e5c6, InvalidParameterValueException: The provided execution role does not have permissions to call CreateNetworkInterface on EC2: provider=aws@6.57.0
+    error: 1 error occurred:
+        * creating Lambda Function (inferenceFunction-6e04511): operation error Lambda: CreateFunction, https response error StatusCode: 400, RequestID: 83fbfa76-bab2-4260-821c-21035b96e5c6, InvalidParameterValueException: The provided execution role does not have permissions to call CreateNetworkInterface on EC2
+
+  pulumi:pulumi:Stack (selfai-dev):
+    2024-11-02 00:04:15 [info     ] Adding Lambda function: crawler cls=hosting_component.function
+    2024-11-02 00:04:15 [info     ] Adding Lambda function: datagen cls=hosting_component.function
+    2024-11-02 00:04:15 [info     ] Adding Lambda function: inference cls=hosting_component.function
+    2024-11-02 00:04:15 [info     ] Initializing FargateService    cls=hosting_component.farget
+    2024-11-02 00:04:15 [info     ] Adding service: mq             cls=hosting_component.farget
+    2024-11-02 00:04:15 [info     ] Adding service: cdc            cls=hosting_component.farget
+    2024-11-02 00:04:15 [info     ] Adding service: bytewax        cls=hosting_component.farget
+    2024-11-02 00:04:15 [info     ] Deploying crawler to AWS Lambda cls=hosting_component.function
+    2024-11-02 00:04:15 [info     ] Getting repository URL         cls=hosting_component.function
+    2024-11-02 00:04:21 [info     ] Creating IAM role for Lambda function: crawler cls=hosting_component.function  
+    2024-11-02 00:04:21 [info     ] Creating Lambda function: crawlerFunction cls=hosting_component.function       
+    2024-11-02 00:04:21 [info     ] Successfully deployed crawler with ARN Calling __str__ on an Output[T] is not supported.
+    To get the value of an Output[T] as an Output[str] consider:
+    1. o.apply(lambda v: f"prefix{v}suffix")
+    See https://www.pulumi.com/docs/concepts/inputs-outputs for more details.
+    This function may throw in a future version of Pulumi. cls=hosting_component.function
+    2024-11-02 00:04:21 [info     ] Deploying datagen to AWS Lambda cls=hosting_component.function
+    2024-11-02 00:04:21 [info     ] Getting repository URL         cls=hosting_component.function
+    2024-11-02 00:04:22 [info     ] Creating IAM role for Lambda function: datagen cls=hosting_component.function  
+    2024-11-02 00:04:22 [info     ] Creating Lambda function: datagenFunction cls=hosting_component.function       
+    2024-11-02 00:04:22 [info     ] Successfully deployed datagen with ARN Calling __str__ on an Output[T] is not supported.
+    To get the value of an Output[T] as an Output[str] consider:
+    1. o.apply(lambda v: f"prefix{v}suffix")
+    See https://www.pulumi.com/docs/concepts/inputs-outputs for more details.
+    This function may throw in a future version of Pulumi. cls=hosting_component.function
+    2024-11-02 00:04:22 [info     ] Deploying inference to AWS Lambda cls=hosting_component.function
+    2024-11-02 00:04:22 [info     ] Getting repository URL         cls=hosting_component.function
+    2024-11-02 00:04:22 [info     ] Creating IAM role for Lambda function: inference cls=hosting_component.function
+    2024-11-02 00:04:22 [info     ] Creating Lambda function: inferenceFunction cls=hosting_component.function     
+    2024-11-02 00:04:22 [info     ] Successfully deployed inference with ARN Calling __str__ on an Output[T] is not supported.
+    To get the value of an Output[T] as an Output[str] consider:
+    1. o.apply(lambda v: f"prefix{v}suffix")
+    See https://www.pulumi.com/docs/concepts/inputs-outputs for more details.
+    This function may throw in a future version of Pulumi. cls=hosting_component.function
+    2024-11-02 00:04:22 [info     ] Deploying API Gateway          cls=hosting_component.function
+    2024-11-02 00:04:22 [info     ] Deploying all services         cls=hosting_component.farget
+    2024-11-02 00:04:22 [info     ] Creating task definitions      cls=hosting_component.farget
+    2024-11-02 00:04:22 [info     ] Getting repository URL         cls=hosting_component.farget
+    2024-11-02 00:04:23 [info     ] ECR repository URL: 026090513546.dkr.ecr.ap-south-1.amazonaws.com/mq cls=hosting_component.farget
+    2024-11-02 00:04:23 [info     ] Getting repository URL         cls=hosting_component.farget
+    2024-11-02 00:04:23 [info     ] ECR repository URL: 026090513546.dkr.ecr.ap-south-1.amazonaws.com/cdc cls=hosting_component.farget
+    2024-11-02 00:04:23 [info     ] Getting repository URL         cls=hosting_component.farget
+    2024-11-02 00:04:23 [info     ] ECR repository URL: 026090513546.dkr.ecr.ap-south-1.amazonaws.com/bytewax cls=hosting_component.farget
+    2024-11-02 00:04:23 [info     ] Creating task execution role   cls=hosting_component.farget
+    2024-11-02 00:04:24 [info     ] Creating Fargate service       cls=hosting_component.farget
+    2024-11-02 00:04:24 [info     ] Fargate service created: Calling __str__ on an Output[T] is not supported.     
+    To get the value of an Output[T] as an Output[str] consider:
+    1. o.apply(lambda v: f"prefix{v}suffix")
+    See https://www.pulumi.com/docs/concepts/inputs-outputs for more details.
+    This function may throw in a future version of Pulumi. cls=hosting_component.farget
+
+    error: update failed
+
+  aws:ec2:NatGateway (selfai-nat-gateway):
+    error:   sdk-v2/provider2.go:520: sdk.helper_schema: waiting for EC2 NAT Gateway (nat-0f557b0df425dfec5) create: unexpected state 'failed', wanted target 'available'. last error: Resource.AlreadyAssociated: Elastic IP address [eipalloc-046eee830cc4841ce] is already associated: provider=aws@6.57.0
+    error: 1 error occurred:
+        * waiting for EC2 NAT Gateway (nat-0f557b0df425dfec5) create: unexpected state 'failed', wanted target 'available'. last error: Resource.AlreadyAssociated: Elastic IP address [eipalloc-046eee830cc4841ce] is already associated
+
+  aws:apigateway:Deployment (deployment):
+    error:   sdk-v2/provider2.go:520: sdk.helper_schema: creating API Gateway Deployment: operation error API Gateway: CreateDeployment, https response error StatusCode: 400, RequestID: c0fe6988-7791-45e6-b142-39b1b388104e, BadRequestException: No integration defined for method: provider=aws@6.57.0
+    error: 1 error occurred:
+        * creating API Gateway Deployment: operation error API Gateway: CreateDeployment, https response error StatusCode: 400, RequestID: c0fe6988-7791-45e6-b142-39b1b388104e, BadRequestException: No integration defined for method
+
+Resources:
+    31 unchanged
+
+Duration: 5m35s

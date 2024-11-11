@@ -1,0 +1,20 @@
+# Use RabbitMQ with Management Plugin as the base image
+FROM rabbitmq:3-management-alpine
+
+# Set environment variables
+ENV RABBITMQ_DEFAULT_USER=selfai
+ENV RABBITMQ_DEFAULT_PASS=selfaipassword
+ENV RABBITMQ_DEFAULT_VHOST=/
+
+
+# Expose the RabbitMQ ports
+# 5672 - RabbitMQ protocol
+# 15672 - RabbitMQ management UI
+EXPOSE 5672 15672
+
+# Copy custom RabbitMQ configuration if needed
+# Uncomment the next line if you have a custom configuration file
+# COPY rabbitmq.conf /etc/rabbitmq/rabbitmq.conf
+
+# Start RabbitMQ server
+CMD ["rabbitmq-server"]
